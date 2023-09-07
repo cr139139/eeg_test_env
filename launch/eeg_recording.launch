@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="eeg_data_recording" type="eeg_cov_node.py" name="eeg_cov_node.py" output="screen" ></node>
+  <node pkg="eeg_data_recording" type="recording_gui_node.py" name="recording_gui_node.py" output="screen" ></node>
+  
+</launch>
